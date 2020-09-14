@@ -29,3 +29,5 @@ This will add values to new table dont need ID because that's automatic. Can jus
 ![Alt Text](https://github.com/robhami/ZTM_databases/blob/master/login_table.PNG)
 
 ![Alt Text](https://github.com/robhami/ZTM_databases/blob/master/main_db.PNG)
+
+This allows names to reference each other in login table this is the primary key in users table this is the foreign key. Can now link the tables...next lesson 
