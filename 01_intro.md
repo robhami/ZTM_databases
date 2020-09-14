@@ -7,5 +7,6 @@ Relation between tables and fields is called a schema, this must be clearly defi
 
 Information is connected 
 
-![Alt text](/relative/path/to/relational_DB.png?raw=true "Optional Title")
+![Alt Text](https://raw.github.com/{robhami}/{ZTM_databases}/{master}/{relational_DB.png})
+
 
