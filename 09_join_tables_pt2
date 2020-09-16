@@ -1,0 +1,20 @@
+Connect using foreign key and primary key. Can use JOIN. 
+
+test=# \d
+              List of relations
+ Schema |     Name     |   Type   |  Owner
+--------+--------------+----------+----------
+ public | login        | table    | postgres
+ public | login_id_seq | sequence | postgres
+ public | users        | table    | postgres
+ public | users2       | table    | postgres
+ 
+ Can link login with users like this: 
+ ```
+ test=# SELECT * FROM users JOIN login ON users.name = login.name;
+ name  | age |  birthday  | score | id | secret | name
+-------+-----+------------+-------+----+--------+-------
+ Rob   |  46 | 1930-01-25 |    50 |  1 | abc    | Rob
+ Sally |  44 | 1932-01-25 |   100 |  2 | xyz    | Sally
+ John  |  49 | 1922-01-25 |   100 |  5 | lof    | John
+ Amy   |  46 | 1937-01-25 |    88 |  6 | uio    | Amy
