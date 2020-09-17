@@ -1,0 +1,28 @@
+Delete
+```
+
+
+test=# DELETE FROM users WHERE name='Sally';
+DELETE 1
+
+name | age |  birthday  | score
+------+-----+------------+-------
+ Rob  |  46 | 1930-01-25 |    50
+ John |  49 | 1922-01-25 |   100
+ Amy  |  46 | 1937-01-25 |    88
+(3 rows)
+```
+Drop
+```
+
+test=# DROP TABLE login;
+DROP TABLE
+test=# /d
+test-# \d
+         List of relations
+ Schema |  Name  | Type  |  Owner
+--------+--------+-------+----------
+ public | users  | table | postgres
+ public | users2 | table | postgres
+ ```
+ 
